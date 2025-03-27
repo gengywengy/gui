@@ -10,7 +10,7 @@ include(
 //    "spigot:1_20_R2",
 //    "spigot:1_20_R3",
 //    "spigot:1_20_R4",
-    "spigot:spigot_1_21_R1",
-    "spigot:spigot_1_21_R2"
+    "spigot:1_21_R1",
+    "spigot:1_21_R2"
 )
 

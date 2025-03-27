@@ -10,9 +10,9 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/api" />
             <option value="$PROJECT_DIR$/spigot" />
+            <option value="$PROJECT_DIR$/spigot/1_21_R1" />
+            <option value="$PROJECT_DIR$/spigot/1_21_R2" />
             <option value="$PROJECT_DIR$/spigot/common" />
-            <option value="$PROJECT_DIR$/spigot/spigot_1_21_R1" />
-            <option value="$PROJECT_DIR$/spigot/spigot_1_21_R2" />
           </set>
         </option>
       </GradleProjectSettings>
