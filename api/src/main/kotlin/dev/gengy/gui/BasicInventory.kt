@@ -33,6 +33,7 @@ abstract class BasicInventory : Inventory {
     }
 
     internal fun show(player: Player): InventoryView? {
+        onOpen(player)
         val inventory = Bukkit.createInventory(null, meta.size.invSize)
 
         items.forEach {
