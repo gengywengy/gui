@@ -12,11 +12,11 @@ Kotlin based GUI library made for ease of use with the spigot api.
 ```
 ### Gradle KTS
 ```kts
-implementation("dev.gengy:schematics:0.1.0")
+implementation("dev.gengy:gui:0.1.0")
 ```
 ### Gradle
 ```groovy
-implementation 'dev.gengy:schematics:0.1.0'
+implementation 'dev.gengy:gui:0.1.0'
 ```
 ## How to use
 ### Kotlin Usage
