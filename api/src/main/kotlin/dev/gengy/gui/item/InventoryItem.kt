@@ -3,6 +3,7 @@ package dev.gengy.gui.item
 import org.bukkit.Material
 import org.bukkit.entity.Player
 import org.bukkit.event.inventory.ClickType
+import org.bukkit.event.inventory.InventoryClickEvent
 import org.bukkit.inventory.Inventory
 import org.bukkit.inventory.ItemStack
 
@@ -48,6 +49,12 @@ open class InventoryItem(
         val item = buildItemStack()
         slots.forEach {
             inventory.setItem(it, item)
+        }
+    }
+
+    internal fun runClick(e: InventoryClickEvent) {
+        clickListeners.forEach { listener ->
+            listener.invoke(InventoryItemClick(e.whoClicked as Player, e.click))
         }
     }
 }
